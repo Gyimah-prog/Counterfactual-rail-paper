@@ -1,0 +1,478 @@
+{
+ "js": {
+  "test": {
+   "ctrl_threshold": 0.0019120458891013384,
+   "ctrl_p1": 0.04875717017208413,
+   "stale": 0.06500956022944551,
+   "inst_ratio": 0.4598470363288719,
+   "inst_margin": 0.4780114722753346,
+   "sc_sigma": 0.10468451242829828,
+   "sc_tail": 0.09416826003824091,
+   "sc_excess": 0.30449330783938816,
+   "sc_mproxy": 0.2978011472275335,
+   "dg_sigma": 0.0994263862332696,
+   "dg_tail": 0.09177820267686425,
+   "dg_excess": 0.4130019120458891,
+   "ot_1d": 0.06739961759082218,
+   "ot_marg": 0.06978967495219886,
+   "ot_mv": 0.07504780114722753,
+   "ot_mv_ret": 0.0621414913957935,
+   "fresh": 0.5607074569789675
+  },
+  "eval": {
+   "ctrl_threshold": 0.0,
+   "ctrl_p1": 0.16071428571428573,
+   "stale": 0.17633928571428573,
+   "inst_ratio": 0.6272321428571429,
+   "inst_margin": 0.7455357142857143,
+   "sc_sigma": 0.19754464285714285,
+   "sc_tail": 0.18526785714285715,
+   "sc_excess": 0.24107142857142858,
+   "sc_mproxy": 0.234375,
+   "dg_sigma": 0.20424107142857142,
+   "dg_tail": 0.18526785714285715,
+   "dg_excess": 0.22991071428571427,
+   "ot_1d": 0.20200892857142858,
+   "ot_marg": 0.1875,
+   "ot_mv": 0.1484375,
+   "ot_mv_ret": 0.20647321428571427,
+   "fresh": 0.8080357142857143
+  }
+ },
+ "rec": {
+  "test": {
+   "inst_margin": 0.8479087452471483,
+   "inst_ratio": 0.7946768060836502
+  },
+  "eval": {
+   "inst_margin": 0.9047619047619047,
+   "inst_ratio": 0.7089947089947091
+  }
+ },
+ "c4": {
+  "diff": -0.0372848948374761,
+  "lo": -0.08455978774663779,
+  "hi": -0.003535599092974299
+ },
+ "mon": {
+  "b13min": 0.2631578947368421,
+  "b13max": 0.4504950495049505
+ },
+ "cost": {
+  "fresh_sec": 0.30046992043506326,
+  "fresh_q": 988.4543039319873,
+  "fresh_total": 18.84947967529297
+ },
+ "n": {
+  "y15": 1672,
+  "y16": 2092,
+  "eval15": 896
+ },
+ "pol": {
+  "eval_nogate": 0.8147321428571429,
+  "test_nogate": 0.5683556405353728,
+  "eval_fresh": 0.8080357142857143,
+  "test_fresh": 0.5607074569789675,
+  "eval_nogate_regen": 0.234375,
+  "test_nogate_regen": 0.5023900573613767
+ },
+ "comp": {
+  "dg_x": 0.5472887767969735,
+  "stale_x": 0.10844892812105927
+ },
+ "cons": {
+  "stale": 0.3513947392084072,
+  "inst": 0.767559638562888,
+  "fresh": 0.5770288051644098,
+  "policy": 0.699169575073767,
+  "seed_med": 0.002577217353926893
+ },
+ "fac": {
+  "inst_upd": 0.4450286806883365,
+  "stale_upd": 0.055449330783938815,
+  "fresh_f0_on_upd": 0.3078393881453155,
+  "fresh_upd": 0.5616634799235182,
+  "fresh_upd_wd": 0.8416252072968491
+ },
+ "margin": 0.016803461859118685,
+ "sup99": 1.3050474357309412,
+ "mainrows": [
+  [
+   "Threshold correction (control)",
+   "0.0",
+   "0.2",
+   "0.3",
+   "0.2"
+  ],
+  [
+   "P1 signed mean (control)",
+   "16.1",
+   "4.9",
+   "21.7",
+   "4.9"
+  ],
+  [
+   "Stale P2",
+   "17.6",
+   "6.5",
+   "28.1",
+   "6.5"
+  ],
+  [
+   "Instance, ratio form",
+   "62.7",
+   "46.0",
+   "63.9",
+   "46.0"
+  ],
+  [
+   "Instance, margin form *",
+   "74.6",
+   "47.8",
+   "81.1",
+   "47.8"
+  ],
+  [
+   "Scalar, spread *",
+   "19.8",
+   "10.5",
+   "29.4",
+   "10.5"
+  ],
+  [
+   "Scalar, tail magnitude",
+   "18.5",
+   "9.4",
+   "28.5",
+   "9.4"
+  ],
+  [
+   "Scalar, project excess",
+   "24.1",
+   "30.4",
+   "30.9",
+   "30.4"
+  ],
+  [
+   "Scalar, model boundary proxy",
+   "23.4",
+   "29.8",
+   "30.7",
+   "29.8"
+  ],
+  [
+   "Diagonal, spread *",
+   "20.4",
+   "9.9",
+   "29.9",
+   "9.9"
+  ],
+  [
+   "Diagonal, tail magnitude",
+   "18.5",
+   "9.2",
+   "28.5",
+   "9.2"
+  ],
+  [
+   "Diagonal, project excess",
+   "23.0",
+   "41.3",
+   "30.4",
+   "41.3"
+  ],
+  [
+   "OT, 1D WARP quantile",
+   "20.2",
+   "6.7",
+   "31.0",
+   "6.7"
+  ],
+  [
+   "OT, marginal quantile",
+   "18.8",
+   "7.0",
+   "27.6",
+   "7.0"
+  ],
+  [
+   "OT, multivariate",
+   "14.8",
+   "7.5",
+   "23.7",
+   "7.5"
+  ],
+  [
+   "OT, multivariate with retrieval *",
+   "20.6",
+   "6.2",
+   "31.3",
+   "6.2"
+  ],
+  [
+   "Fresh generation",
+   "80.8",
+   "56.1",
+   "88.3",
+   "56.1"
+  ]
+ ],
+ "contr": [
+  [
+   "C1 instance vs stale (Instance)",
+   "Eval 2015",
+   "+56.9",
+   "+27.3 to +78.6"
+  ],
+  [
+   "C2 scalar vs instance (Scalar)",
+   "Eval 2015",
+   "-54.8",
+   "-75.6 to -26.2"
+  ],
+  [
+   "C3 diagonal vs scalar (Diagonal)",
+   "Eval 2015",
+   "+0.7",
+   "+0.0 to +1.8"
+  ],
+  [
+   "C4 OT vs diagonal (OT)",
+   "Eval 2015",
+   "+0.2",
+   "-4.1 to +7.2"
+  ],
+  [
+   "S1 OT vs stale (OT)",
+   "Eval 2015",
+   "+3.0",
+   "-1.9 to +10.8"
+  ],
+  [
+   "S2 fresh vs best instance (fresh)",
+   "Eval 2015",
+   "+6.2",
+   "+0.5 to +11.0"
+  ],
+  [
+   "S3 diagonal vs instance (Diagonal)",
+   "Eval 2015",
+   "-54.1",
+   "-75.6 to -25.4"
+  ],
+  [
+   "C1 instance vs stale (Instance)",
+   "Test 2016",
+   "+41.3",
+   "+14.9 to +71.5"
+  ],
+  [
+   "C2 scalar vs instance (Scalar)",
+   "Test 2016",
+   "-37.3",
+   "-66.5 to -11.0"
+  ],
+  [
+   "C3 diagonal vs scalar (Diagonal)",
+   "Test 2016",
+   "-0.5",
+   "-1.7 to +0.0"
+  ],
+  [
+   "C4 OT vs diagonal (OT)",
+   "Test 2016",
+   "-3.7",
+   "-8.5 to -0.4"
+  ],
+  [
+   "S1 OT vs stale (OT)",
+   "Test 2016",
+   "-0.3",
+   "-2.9 to +2.2"
+  ],
+  [
+   "S2 fresh vs best instance (fresh)",
+   "Test 2016",
+   "+8.3",
+   "+0.1 to +17.3"
+  ],
+  [
+   "S3 diagonal vs instance (Diagonal)",
+   "Test 2016",
+   "-37.9",
+   "-66.5 to -12.3"
+  ]
+ ],
+ "repro": [
+  [
+   "2014 library size",
+   "637 of 649",
+   "637 of 649"
+  ],
+  [
+   "ROC AUC 2015 and 2016",
+   "0.9963 and 0.9974",
+   "0.9963 and 0.9974"
+  ],
+  [
+   "P2 flip 2015",
+   "28.5% (476 of 1,672)",
+   "28.47% (476 of 1,672)"
+  ],
+  [
+   "P2 flip 2016",
+   "6.9% (144 of 2,092)",
+   "6.88% (144 of 2,092)"
+  ],
+  [
+   "Mean absolute WARP perturbation",
+   "0.0494 in.",
+   "0.0494 in."
+  ],
+  [
+   "Fresh WARP driven 2015, frozen model",
+   "98.5% (1,219 of 1,237)",
+   "98.5% (1,217 of 1,236)"
+  ],
+  [
+   "Fresh WARP driven 2016, updated model",
+   "84.2% (1,015 of 1,206)",
+   "84.2% of 1,206"
+  ]
+ ],
+ "ladder": [
+  [
+   "Stale (L1)",
+   "P2",
+   "Nearest 2014 action, unchanged"
+  ],
+  [
+   "Instance (B)",
+   "ratio, margin",
+   "Ratio scales the action by the target WARP excess over the origin excess. Margin scales WARP to cover the target excess plus a library margin."
+  ],
+  [
+   "Scalar (L2)",
+   "spread, tail, excess, model proxy",
+   "One WARP anchored factor from the window. Spread uses the square root variance ratio. Tail uses mean |WARP| above the 2014 95th percentile. Excess uses mean excess beyond 0.30 in. Proxy uses 0.283 in."
+  ],
+  [
+   "Diagonal (L3)",
+   "spread, tail, excess",
+   "Same families estimated per feature"
+  ],
+  [
+   "OT (L4)",
+   "1D, marginal, multivariate, multivariate with retrieval",
+   "Quantile map on signed WARP, quantile maps per feature, entropic barycentric map, and the same map with retrieval by transported origins"
+  ]
+ ],
+ "costrows": [
+  [
+   "Retrieval per inspection (s)",
+   "0.001823"
+  ],
+  [
+   "Factor estimation per inspection, all families (s)",
+   "0.1402"
+  ],
+  [
+   "1D quantile map per inspection (s)",
+   "0.005084"
+  ],
+  [
+   "Marginal quantile maps per inspection (s)",
+   "0.02491"
+  ],
+  [
+   "Multivariate OT fit per inspection (s)",
+   "32.64"
+  ],
+  [
+   "Transfer and validation per case (ms)",
+   "0.008801"
+  ],
+  [
+   "Fresh generation per case (s)",
+   "0.3005"
+  ],
+  [
+   "Fresh generation per case, 95th percentile (s)",
+   "0.59"
+  ],
+  [
+   "Fresh generation model queries per case",
+   "988.5"
+  ],
+  [
+   "Fresh generation total for 2015 and 2016 cohorts (min)",
+   "18.85"
+  ],
+  [
+   "Fresh generation success rate",
+   "0.7131"
+  ]
+ ],
+ "verdicts": [
+  [
+   "H1 monitoring",
+   "Partly supported",
+   "Validity exposes decay that AUC misses. It does not lead exceedance frequency once the in sample 2014 artifact is removed."
+  ],
+  [
+   "H2 magnitude",
+   "Supported for instance",
+   "Instance margin 47.8% against stale 6.5% in 2016. Population scalars recover far less."
+  ],
+  [
+   "H3 diagonal",
+   "Null form holds",
+   "Spread diagonal equals spread scalar. Diagonal excess repairs XLEVEL only cases, a registered alternative."
+  ],
+  [
+   "H4 OT",
+   "Not supported",
+   "Below the best diagonal in 2016. Helps only under synthetic tail inflation. Multivariate map biased with no change."
+  ],
+  [
+   "H5 residual",
+   "Supported",
+   "XLEVEL only share, reference distance, and support mismatch predict failure. Joint and other defects always fail."
+  ],
+  [
+   "H6 refresh",
+   "Supported for validity and cost",
+   "Gate free policy matches fresh generation with 23% to 50% regeneration. Not more consistent than fresh generation."
+  ]
+ ],
+ "files": [
+  [
+   "Counterfactual_Project_2_Results.docx",
+   "This report"
+  ],
+  [
+   "figures/",
+   "Nine figures in PNG and PDF"
+  ],
+  [
+   "tables/results_tables.xlsx",
+   "All analysis tables, one sheet each"
+  ],
+  [
+   "tables/*.csv",
+   "Monitoring, stress test, and sensitivity tables"
+  ],
+  [
+   "code/",
+   "Scripts s01 to s08 and the report builder, in run order"
+  ],
+  [
+   "data/",
+   "Per case ladder results, fresh generation results, updated model"
+  ],
+  [
+   "README.md",
+   "How to rerun the analysis"
+  ]
+ ]
+}
