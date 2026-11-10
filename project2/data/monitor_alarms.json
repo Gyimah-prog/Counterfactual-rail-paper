@@ -1,0 +1,18 @@
+{
+ "alarm_thresholds": {
+  "validity": 0.8,
+  "auc": 0.99,
+  "ece": 0.02,
+  "std_ratio": 1.2,
+  "tail_ratio": 2.0,
+  "ks_warp": 0.05
+ },
+ "first_alarm": {
+  "validity": "2015-01-01",
+  "auc": "2015-12-01",
+  "ece": "never",
+  "std_ratio": "2015-11-01",
+  "tail_ratio": "2015-04-01",
+  "ks_warp": "2016-01-01"
+ }
+}
